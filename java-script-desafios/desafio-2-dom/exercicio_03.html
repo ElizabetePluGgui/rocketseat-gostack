@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=scr, initial-scale=1.0">
+    <title>Desafio 02</title>
+</head>
+<body>
+    <ul></ul>
+    <script>
+        var nomes = ["Diego", "Gabriel", "Lucas"];
+        var listaElement = document.querySelector('ul');
+
+        for(nome of nomes){
+            var liElment = document.createElement('li');
+            var textElement = document.createTextNode(nome);
+            liElment.appendChild(textElement);
+            listaElement.appendChild(liElment);
+        }
+
+    </script>
+</body>
+</html>
