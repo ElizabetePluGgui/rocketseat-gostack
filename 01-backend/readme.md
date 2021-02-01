@@ -3,9 +3,9 @@
 Bootcamp GoStack
 </h1>
 
-# Iniciando o projeto BACKEND
+## Iniciando o projeto BACKEND
 
-# Comandos de instalações do git ou prompt.
+## Comandos de instalações do git ou prompt.
 
 ## Criar uma pasta com o nome de backend e executar os seguintes comandos:
 
