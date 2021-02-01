@@ -7,7 +7,7 @@
 </h2>
 
 <p align="center">
-  <img width="80%" src="gostack.png">
+  <img width="50%" src="gostack.png">
 </p>
 
 <h2 align="center">
