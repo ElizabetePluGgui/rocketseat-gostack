@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import api from './services/api';
 
 import './App.css';
-
+import backgroundImage from './assets/background.jpg';
 import Header from './components/Header';
 
 /**
@@ -36,6 +36,8 @@ function App() {
   return (
     <>
       <Header title="Projects" />
+
+      <img src={backgroundImage} />
 
       <ul>
         {projects.map((project) => (
