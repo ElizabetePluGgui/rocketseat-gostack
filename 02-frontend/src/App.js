@@ -5,7 +5,7 @@ import Header from './components/Header';
 function App() {
   return (
     <>
-      <Header />
+      <Header title="Elizabete de Sousa Fabri" />
       <Header />
     </>
   );
