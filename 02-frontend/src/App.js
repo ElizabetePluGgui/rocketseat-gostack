@@ -3,10 +3,16 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 
 function App() {
-  const projects = useState(['Desenvolvimento de app', 'Front-end web']);
+  const [projects, setProjects] = useState([
+    'Desenvolvimento de app',
+    'Front-end web',
+  ]);
 
   function handleAddProject() {
-    projects.push(`Novo projeto ${Date.now()}`);
+    //projects.push(`Novo projeto ${Date.now()}`);
+
+    setProjects([...projects, `Novo projeto ${Date.now()}`]);
+
     console.log(projects);
   }
   return (
@@ -18,7 +24,7 @@ function App() {
         ))}
       </ul>
 
-      <button type="button" onclick={handleAddProject}>
+      <button type="button" onClick={handleAddProject}>
         Adicionar projeto
       </button>
     </>
